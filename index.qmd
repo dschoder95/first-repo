@@ -15,7 +15,8 @@ storms %>%
   ggplot() +
   geom_point(mapping = aes(x = hurricane_force_diameter, y = pressure)) +
   xlab("Diameter of Area With Hurricane Strength Winds (Nautical Miles)") +
-  ylab("Air Pressure at Storm Center (Knots)")
+  ylab("Air Pressure at Storm Center (Knots)") +
+  labs(title = "Larger Hurricane Diameters Are Associated With Lower Pressure")
   
 
 ```
