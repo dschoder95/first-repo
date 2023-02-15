@@ -1,0 +1,21 @@
+---
+title: "Class 2.14"
+author: "Diana Schoder"
+format:
+  html:
+    self-contained: true
+editor: visual
+---
+
+```{r}
+
+library(tidyverse)
+
+storms %>% 
+  ggplot() +
+  geom_point(mapping = aes(x = hurricane_force_diameter, y = pressure))
+  
+
+```
+
+
